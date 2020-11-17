@@ -33,9 +33,14 @@ public class Cola{
     }
     
 
-    public void eliminar(){
+    public void eliminar(){        
+          if(vacia()){
+            System.out.println("La pila esta vacia");
+        }
+        else{
        raiz=raiz.Siguiente;
        tamanio--;
+         }
     }
     
 }
