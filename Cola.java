@@ -4,7 +4,7 @@ public class Cola{
     int tamanio;
     Nodo raiz;
         public boolean vacia(){
-        return cima==null;
+        return raiz==null;
     }
     
     public void empuja(int elemento){
@@ -34,7 +34,7 @@ public class Cola{
     
 
     public void eliminar(){        
-          if(raiz==null){
+          if(vacia()){
             System.out.println("La pila esta vacia");
         }
         else{
