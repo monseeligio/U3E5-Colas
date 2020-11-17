@@ -34,7 +34,7 @@ public class Cola{
     
 
     public void eliminar(){        
-          if(vacia()){
+          if(raiz==null){
             System.out.println("La pila esta vacia");
         }
         else{
